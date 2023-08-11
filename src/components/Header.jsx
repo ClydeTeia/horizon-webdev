@@ -34,6 +34,15 @@ function Header({ setPage }) {
         <button id="signin-btn">Sign in</button>
         <button id="login-btn">Log in</button>
       </div>
+      <button className="menu-btn">
+        <button>Products</button>
+        <button>Pricing</button>
+        <button onClick={() => handlePageChange("aboutus")}>About us</button>
+        <button>Contact</button>
+        <button>Blog</button>
+        <button>Support</button>
+        <button>FAQs</button>
+      </button>
     </div>
   );
 }

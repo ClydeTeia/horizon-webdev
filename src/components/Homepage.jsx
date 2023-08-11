@@ -31,11 +31,11 @@ function Homepage() {
       <div className="partnership-container">
         <h3 className="partnership-header">Partnerships</h3>
         <div className="partnership-logos-container">
-          <div className="parnership1"></div>
-          <div className="parnership2"></div>
-          <div className="parnership3"></div>
-          <div className="parnership4"></div>
-          <div className="parnership5"></div>
+          <div className="parnership parnership1"></div>
+          <div className="parnership parnership2"></div>
+          <div className="parnership parnership3"></div>
+          <div className="parnership parnership4"></div>
+          <div className="parnership parnership5"></div>
         </div>
       </div>
       {/* Articles start*/}
@@ -59,13 +59,13 @@ function Homepage() {
           {/* Article description end */}
           {/* Article image start */}
           <div className="article-img-description-container article1-img-description-container">
-            <div className="article-img article-img1"></div>
+            <div className="article-img article-img article-img article-img1"></div>
           </div>
           {/* Article image end */}
         </div>
         <div className="article">
           <div className="article-img-description-container article2-img-description-container">
-            <div className="article-img article-img2"></div>
+            <div className="article-img article-img article-img article-img2"></div>
           </div>
           <div className="article-description">
             <h2 className="description-header">Feature</h2>
@@ -99,7 +99,7 @@ function Homepage() {
           {/* Article description end */}
           {/* Article image start */}
           <div className="article-img-description-container article3-img-description-container">
-            <div className="article-img article-img3"></div>
+            <div className="article-img article-img article-img article-img3"></div>
           </div>
         </div>
         {/* Articles start*/}

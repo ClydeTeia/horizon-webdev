@@ -69,13 +69,21 @@ ul li button{
   border: none;
   color: aquamarine;
   font-size: medium;
-  
 }
 
 ul li button:hover{
   color: #000c1b;
   cursor: pointer;
   transition: ease-in-out .15s;
+}
+
+.menu-btn{
+  display: none;
+}
+
+.button-container{
+  display: flex;
+  align-items: center;
 }
 
 .button-container button{
@@ -100,3 +108,59 @@ ul li button:hover{
   color: black;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1200px) {
+
+  .container{
+    padding: 0 0 0 10px;
+  }
+
+  nav ul li button{
+    display: none;
+  }
+
+  .menu-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-color: #232f3e;
+    border-style: solid;
+    top: 0;
+    right: 0;
+    margin: 175px 0 0 0;
+    padding: 0;
+    border-radius: 4px;
+  }
+
+  .menu-btn button{
+    height: 35px;
+    width: 60px;
+    float: left;
+    background-color: #232f3e;
+    border: none;
+    color: aquamarine;
+    font-size: medium;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+  }
+
+  .button-container button{
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    height: 30px;
+    width: 70px;
+    margin: 0;
+  }
+
+  #login-btn {
+    background-color: #FF7723;
+    border-radius: 50px;
+    width: 70px;
+    height: 30px;
+  }
+
+
+}
+
