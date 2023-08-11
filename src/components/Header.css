@@ -1,0 +1,101 @@
+.container {
+  height: 70px;
+  width: auto;
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  width: 210px;
+}
+
+#logo {
+  height: 60px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: cyan;
+}
+
+#logo:hover{
+  cursor: pointer;
+}
+
+#title {
+  margin-left: 10px;
+  color: aquamarine;
+  width: 80px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  font-size: 35px;
+}
+
+#title:hover{
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  height: inherit;
+  align-items: center;
+}
+
+ul {
+  padding: 0px;
+}
+
+ul li{
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li button{
+  height: 50px;
+  width: 80px;
+  float: left;
+  margin-left: 10px;
+  background-color: inherit;
+  border: none;
+  color: aquamarine;
+  font-size: medium;
+  
+}
+
+ul li button:hover{
+  color: #000c1b;
+  cursor: pointer;
+  transition: ease-in-out .15s;
+}
+
+.button-container button{
+  width: 90px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  background-color: inherit;
+  color: aquamarine;
+  cursor: pointer;
+}
+
+#login-btn {
+  background-color: #FF7723;
+  border-radius: 50px;
+  width: 100px;
+  height: 35px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
