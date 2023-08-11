@@ -19,10 +19,11 @@
 }
 
 #logo {
-  height: 60px;
+  height: 70px;
   width: 70px;
   border-radius: 50%;
-  background-color: cyan;
+  background-image: url("/src/assets/images/HORIZON.png");
+  background-size: cover;
 }
 
 #logo:hover{

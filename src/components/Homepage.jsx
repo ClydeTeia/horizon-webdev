@@ -59,23 +59,13 @@ function Homepage() {
           {/* Article description end */}
           {/* Article image start */}
           <div className="article-img-description-container article1-img-description-container">
-            <div
-              className="article-img"
-              style={{
-                backgroundImage: `url("/src/assets/images/article1.png")`,
-              }}
-            ></div>
+            <div className="article-img article-img1"></div>
           </div>
           {/* Article image end */}
         </div>
         <div className="article">
           <div className="article-img-description-container article2-img-description-container">
-            <div
-              className="article-img"
-              style={{
-                backgroundImage: `url("/src/assets/images/article2.png")`,
-              }}
-            ></div>
+            <div className="article-img article-img2"></div>
           </div>
           <div className="article-description">
             <h2 className="description-header">Feature</h2>
@@ -109,12 +99,7 @@ function Homepage() {
           {/* Article description end */}
           {/* Article image start */}
           <div className="article-img-description-container article3-img-description-container">
-            <div
-              className="article-img"
-              style={{
-                backgroundImage: `url("/src/assets/images/article3.png")`,
-              }}
-            ></div>
+            <div className="article-img article-img3"></div>
           </div>
         </div>
         {/* Articles start*/}
@@ -146,12 +131,7 @@ function Homepage() {
 
         <div className="update-imgs-description-container">
           <div className="update-img-description">
-            <div
-              className="update-img"
-              style={{
-                backgroundImage: `url("/src/assets/images/update1.jpg")`,
-              }}
-            ></div>
+            <div className="update-img update-img1"></div>
             <div className="update-description-container">
               <h4 className="update-subheader-title">Do consectetur</h4>
               <h3 className="update-subheader-details">
@@ -164,12 +144,7 @@ function Homepage() {
             </div>
           </div>
           <div className="update-img-description">
-            <div
-              className="update-img"
-              style={{
-                backgroundImage: `url("/src/assets/images/update2.jpg")`,
-              }}
-            ></div>
+            <div className="update-img update-img2"></div>
             <div className="update-description-container">
               <h4 className="update-subheader-title">Consequat labore</h4>
               <h3 className="update-subheader-details">
@@ -182,12 +157,7 @@ function Homepage() {
             </div>
           </div>
           <div className="update-img-description">
-            <div
-              className="update-img"
-              style={{
-                backgroundImage: `url("/src/assets/images/update3.jpg")`,
-              }}
-            ></div>
+            <div className="update-img update-img3"></div>
             <div className="update-description-container">
               <h4 className="update-subheader-title">Laboris nulla</h4>
               <h3 className="update-subheader-details">

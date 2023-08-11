@@ -199,6 +199,18 @@ h4.description {
   background-color: #54D3EC;
 }
 
+.article-img1{
+  background-image: url("/src/assets/images/article1.png");
+}
+
+.article-img2{
+  background-image: url("/src/assets/images/article2.png");
+}
+
+.article-img3{
+  background-image: url("/src/assets/images/article3.png");
+}
+
 @media only screen and (max-width: 800px) {
   .article {
     height: 225px;
@@ -388,6 +400,18 @@ h4.description {
   width: 370px;
   background-size: cover;
   background-repeat: no-repeat ;
+}
+
+.update-img1{
+  background-image: url("/src/assets/images/update1.jpg");
+}
+
+.update-img2{
+  background-image: url("/src/assets/images/update2.jpg");
+}
+
+.update-img3{
+  background-image: url("/src/assets/images/update3.jpg");
 }
 
 .update-description-container{
